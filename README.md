@@ -4,6 +4,7 @@
 ```
 NEXTJS_HOST:nextjsホスト名（default:localhost）
 NEXTJS_PORT:nextjsポート名（default:3000）
+REDIRECT_HTTPS: http → httpsへリダイレクトするか（default:true）
 ```
 
 ## Create Docker Image
