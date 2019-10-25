@@ -5,3 +5,5 @@ envsubst '$$NEXTJS_HOST $$NEXTJS_PORT $$REDIRECT_HTTPS'< /etc/nginx/conf.d/defau
 if [ $REDIRECT_HTTPS = 'false' ]; then
     sed -i '12,14d' /etc/nginx/conf.d/default.conf
 fi
+
+nginx -g "daemon off;"

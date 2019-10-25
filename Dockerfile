@@ -1,5 +1,5 @@
 FROM nginx:alpine
-COPY default.conf /etc/nginx/conf.d/default.conf
+COPY default.conf.template /etc/nginx/conf.d/default.conf.template
 COPY start.sh start.sh
 RUN chmod +x start.sh
 ENV NEXTJS_HOST=localhost
