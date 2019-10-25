@@ -1,6 +1,10 @@
 # Next.js k8s adapter (Nginx)
 
 ## Environment Variables
+```
+NEXTJS_HOST:nextjsホスト名（default:localhost）
+NEXTJS_PORT:nextjsポート名（default:3000）
+```
 
 ## Create Docker Image
 ```
